@@ -22,7 +22,7 @@ export default function Home({route}) {
     const initDay= day()
   const [initMoney, setInitMoney] = useState();
   useEffect(() => {
-    fetch(`https://api-googlesheets-cde.herokuapp.com/${cde}`).then(data => data.json().then(data =>{
+    fetch(`https://api-tangram-mongo.herokuapp.com/cde/${cde}`).then(data => data.json().then(data =>{
       setInitMoney(data[0][3]);
       dado = data;
       dado.shift();

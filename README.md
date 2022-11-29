@@ -1,4 +1,4 @@
 # Tangram React_Native
  app da tangram utilizando react native
- finalmente upando no github para ter maior controle de versionamento e de branchs
- espero q n de BO essa migração de arquivos KKSKDAS
+
+colocando em src/Home/index, no fetch, o link q puxa os dados do google sheet, deverá ser mudado quando o esquema for para o banco de dados.
