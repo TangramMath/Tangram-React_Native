@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const request = axios.create({
-    baseURL: 'https://api-tangram-mongo.herokuapp.com/'
+    baseURL: 'http://apitangram-env.eba-viv2qiyr.sa-east-1.elasticbeanstalk.com/'
 })
 
 export default request;
